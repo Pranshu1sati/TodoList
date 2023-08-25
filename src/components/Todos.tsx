@@ -19,7 +19,7 @@ export  const Todos = () => {
     }
 
     return (<div>
-        <p>List of todos</p>
+        <p style={{ justifyContent: "center", alignItems : "center" , textAlign:"center"}}>List of todos</p>
         
         <ul className="main-task">
           
