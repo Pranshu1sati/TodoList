@@ -1,5 +1,5 @@
 .nav{
-    width:55rem ;
+    max-width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
