@@ -6,6 +6,8 @@
     box-sizing: border-box;
     /*font-family: 'Lexend Deca', sans-serif;*/
     font-family: 'Urbanist', sans-serif;
+    overflow: clip;
+    overflow: hidden;
 }
 
 
