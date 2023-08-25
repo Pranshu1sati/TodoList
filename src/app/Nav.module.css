@@ -21,3 +21,16 @@
     color: #FFA;
     border-color: #68B984;
 }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .nav {
+        width: 100%; /* Take up full width of the viewport */
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .nav a {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+        margin-bottom: 1rem; /* Add spacing between links */
+        text-align: center; /* Center-align text */
+    }
+}
