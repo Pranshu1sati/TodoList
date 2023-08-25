@@ -1,0 +1,23 @@
+.nav{
+    width:55rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .1rem solid #ccc;
+}
+
+.nav a{
+    font-size: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ccc;
+    border-bottom: .3rem solid transparent;
+}
+
+.nav a:hover{
+    border-color: #3A3845;
+}
+
+.nav a.active {
+    color: #FFA;
+    border-color: #68B984;
+}
