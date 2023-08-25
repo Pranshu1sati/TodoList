@@ -1,5 +1,5 @@
 .nav{
-    max-width: fit-content;
+    max-width: 50rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +24,7 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .nav {
-        width: 100%; /* Take up full width of the viewport */
+        max-width: fit-content; /* Take up full width of the viewport */
         flex-direction: column; /* Stack links vertically */
     }
 
