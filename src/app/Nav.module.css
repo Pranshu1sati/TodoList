@@ -24,7 +24,7 @@
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .nav {
-        max-width: fit-content; /* Take up full width of the viewport */
+        max-width: 40rem;
         flex-direction: row; 
     }
 
