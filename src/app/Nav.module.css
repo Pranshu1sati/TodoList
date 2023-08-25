@@ -25,7 +25,7 @@
 @media (max-width: 768px) {
     .nav {
         max-width: fit-content; /* Take up full width of the viewport */
-        flex-direction: column; /* Stack links vertically */
+        flex-direction: row; 
     }
 
     .nav a {
